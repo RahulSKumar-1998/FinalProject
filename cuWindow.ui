@@ -20,7 +20,7 @@
    <string>User Create/Update Window</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(11, 11, 11);</string>
+   <string notr="true">background-color: rgb(250,243,243)</string>
   </property>
   <widget class="QLabel" name="uName">
    <property name="geometry">
@@ -35,12 +35,12 @@
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
+
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);
+</string>
    </property>
    <property name="text">
     <string>User Name</string>
@@ -59,12 +59,11 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
+
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>Case Study</string>
@@ -83,12 +82,11 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
+
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>Select Inphase folder</string>
@@ -107,12 +105,11 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
+
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>Select Outphase folder</string>
@@ -138,8 +135,9 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)
+</string>
    </property>
    <property name="text">
     <string>Done</string>
@@ -158,12 +156,11 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
+
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);</string>
    </property>
    <property name="inputMask">
     <string/>
@@ -188,12 +185,11 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
+
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string/>
@@ -219,8 +215,9 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)
+</string>
    </property>
    <property name="text">
     <string>Browse</string>
@@ -243,8 +240,9 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)
+</string>
    </property>
    <property name="text">
     <string>Browse</string>
@@ -266,12 +264,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
-color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);
+background-color: rgb(167,187,199);</string>
    </property>
   </widget>
   <widget class="QRadioButton" name="createRdBtn">
@@ -287,12 +283,11 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
+
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>Create</string>
@@ -314,12 +309,11 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
 border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
+
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>Update</string>

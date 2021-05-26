@@ -505,7 +505,6 @@ class dicomeViewer(QDialog):
 
         print (len (dcmCropIP), len (dcmCropOP))
         self.saveStdyBtn.setEnabled (True)
-        print(dcmCropIP)
         diff = dcmCropIP - dcmCropOP
         diff = np.array(diff, dtype=np.int16)
         dcmCropIP = np.array(dcmCropIP, dtype=np.int16)
@@ -581,7 +580,7 @@ class dicomeViewer(QDialog):
         plt.show()
 
     def zoomOP(self):
-        self.dcmOPFileName = self.currentUserIPPath + str (self.currentUserOPFileLst [self.loadedImgID])
+        self.dcmOPFileName = self.currentUserOPPath + str (self.currentUserOPFileLst [self.loadedImgID])
 
         op = pydicom.dcmread (self.dcmOPFileName).pixel_array
         plt.imshow(op, cmap=plt.cm.bone)
@@ -733,7 +732,7 @@ class dicomeViewer(QDialog):
         self.mffcTbl.setHorizontalHeaderLabels (horHeaders)
 
     def displayOnTable (self):
-        stylesheet = "color:rgb(255,255,255);}"
+        stylesheet = "color:rgb(0,0,0);}"
         QTableWidget.setStyleSheet(self.mffcTbl,stylesheet)
         jsonPath = self.currentUserroiJsonFile
         jsonFile = open(jsonPath, "r")

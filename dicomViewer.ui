@@ -20,7 +20,7 @@
    <string>Dicom Viewer</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(11, 11, 11);</string>
+   <string notr="true">background-color: rgb(250,243,243)</string>
   </property>
   <property name="sizeGripEnabled">
    <bool>false</bool>
@@ -43,25 +43,22 @@
      <height>450</height>
     </size>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="layoutDirection">
     <enum>Qt::RightToLeft</enum>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
-border-color: rgb(0, 122, 217);
-font: 75 8pt &quot;MS Shell Dlg 2&quot;;
-background-color: rgb(57, 57, 57);
-font: 75 16pt &quot;Segoe UI&quot;;
-color: rgb(214, 214, 214);
-border-color: rgb(21, 21, 21);
-
-border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
-color: rgb(184, 184, 184);
+    <string notr="true">
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -88,22 +85,15 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
      <height>480</height>
     </size>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="styleSheet">
-    <string notr="true">font: 87 8pt &quot;Arial Black&quot;;
-border-color: rgb(0, 122, 217);
-font: 75 8pt &quot;MS Shell Dlg 2&quot;;
-background-color: rgb(57, 57, 57);
-font: 75 16pt &quot;Segoe UI&quot;;
-color: rgb(214, 214, 214);
-border-color: rgb(21, 21, 21);
-
-border-color: rgb(42, 42, 42);
-background-color: rgb(68, 68, 68);
-color: rgb(184, 184, 184);
-
-
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+    <string notr="true">color: rgb(0,0,0);</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -140,7 +130,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Slice Location</string>
@@ -159,7 +151,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Image Size</string>
@@ -178,7 +172,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+
 </string>
       </property>
       <property name="text">
@@ -198,7 +194,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -218,7 +215,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -238,7 +236,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -258,7 +257,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Study Description</string>
@@ -277,7 +278,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -303,7 +305,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>SOP Class</string>
@@ -322,7 +326,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -342,7 +347,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Modality</string>
@@ -361,7 +368,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+
 </string>
       </property>
       <property name="text">
@@ -381,7 +390,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Patient Name</string>
@@ -400,7 +411,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Manufacturer</string>
@@ -419,7 +432,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Pixel Spacing</string>
@@ -438,7 +453,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -458,9 +474,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 
-color: rgb(184, 184, 184);
 </string>
       </property>
       <property name="text">
@@ -480,7 +496,8 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -500,7 +517,9 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Institution Name</string>
@@ -519,7 +538,9 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Study Date</string>
@@ -538,7 +559,8 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -561,7 +583,9 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+
 </string>
       </property>
       <property name="text">
@@ -581,7 +605,9 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Patient ID</string>
@@ -600,7 +626,8 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(184, 184, 184);
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
 </string>
       </property>
       <property name="text">
@@ -620,7 +647,9 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:rgb(221, 221, 221)</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Station Name</string>
@@ -650,8 +679,8 @@ color: rgb(184, 184, 184);
    <property name="styleSheet">
     <string notr="true">
 
-color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+</string>
    </property>
    <property name="text">
     <string>Brightness</string>
@@ -681,8 +710,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
    <property name="styleSheet">
     <string notr="true">
 
-color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+</string>
    </property>
    <property name="text">
     <string>Contrast</string>
@@ -709,27 +738,27 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
          <colorrole role="Button">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
          <colorrole role="Base">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
          <colorrole role="Window">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
@@ -756,27 +785,27 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
          <colorrole role="Button">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
          <colorrole role="Base">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
          <colorrole role="Window">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
@@ -803,27 +832,27 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
          <colorrole role="Button">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
          <colorrole role="Base">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
          <colorrole role="Window">
           <brush brushstyle="SolidPattern">
            <color alpha="255">
-            <red>11</red>
-            <green>11</green>
-            <blue>11</blue>
+            <red>250</red>
+            <green>243</green>
+            <blue>243</blue>
            </color>
           </brush>
          </colorrole>
@@ -849,9 +878,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </palette>
       </property>
       <property name="styleSheet">
-       <string notr="true">gridline-color: rgb(255, 255, 255);
-selection-color: rgb(255, 255, 255);
-selection-background-color: rgb(255, 255, 255);</string>
+       <string notr="true"/>
       </property>
       <property name="maximum">
        <number>256</number>
@@ -879,9 +906,7 @@ selection-background-color: rgb(255, 255, 255);</string>
     <item>
      <widget class="QSlider" name="contrastSlid">
       <property name="styleSheet">
-       <string notr="true">gridline-color: rgb(255, 255, 255);
-selection-color: rgb(255, 255, 255);
-selection-background-color: rgb(255, 255, 255);</string>
+       <string notr="true"/>
       </property>
       <property name="maximum">
        <number>128</number>
@@ -924,9 +949,9 @@ border-color: rgb(42, 42, 42);
 background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
-
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0, 0,0);
+background-color: rgb(167,187,199)
+</string>
    </property>
    <property name="text">
     <string>Save Study</string>
@@ -950,13 +975,16 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
    <property name="font">
     <font>
      <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">
 
 
-color: rgb(184, 184, 184);
+color: rgb(0,0,0);
+
 </string>
    </property>
    <property name="frameShape">
@@ -978,7 +1006,7 @@ color: rgb(184, 184, 184);
      <x>1310</x>
      <y>650</y>
      <width>441</width>
-     <height>171</height>
+     <height>175</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -994,8 +1022,8 @@ color: rgb(184, 184, 184);
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))
+       <string notr="true">color: rgb(0, 0,0);
+background-color: rgb(167,187,199)
 
 </string>
       </property>
@@ -1009,11 +1037,15 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     </item>
     <item>
      <widget class="QLabel" name="ROIposVal">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-border-color: rgb(255, 255, 255);
-
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Nil</string>
@@ -1035,8 +1067,9 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+       <string notr="true">color: rgb(0, 0,0);
+background-color: rgb(167,187,199)
+</string>
       </property>
       <property name="text">
        <string>Current FFC Mean</string>
@@ -1048,11 +1081,15 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     </item>
     <item>
      <widget class="QLabel" name="CrntFFCVal">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-border-color: rgb(255, 255, 255);
-
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Nil</string>
@@ -1074,8 +1111,9 @@ font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+       <string notr="true">color: rgb(0, 0,0);
+background-color: rgb(167,187,199)
+</string>
       </property>
       <property name="text">
        <string>FFC Mean</string>
@@ -1087,11 +1125,15 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     </item>
     <item>
      <widget class="QLabel" name="FFCMnVal">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-border-color: rgb(255, 255, 255);
-
-font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(225,229,234)
+</string>
       </property>
       <property name="text">
        <string>Nil</string>
@@ -1170,7 +1212,7 @@ alternate-background-color: rgb(255, 255, 255);
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 0, 127);
+    <string notr="true">background-color: rgb(218, 127, 143);
 color: white;</string>
    </property>
    <property name="text">
@@ -1190,7 +1232,7 @@ color: white;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);
+    <string notr="true">color: rgb(0,0,0);
 border-color: rgb(255, 255, 255);
 
 font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
@@ -1220,8 +1262,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
      </widget>
     </item>
@@ -1235,8 +1277,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>Refresh</string>
@@ -1245,6 +1287,18 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
     </item>
     <item row="0" column="0" colspan="2">
      <widget class="QPushButton" name="cuBtn">
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
       <property name="styleSheet">
        <string notr="true">border-color: rgb(21, 21, 21);
 font: 11pt &quot;MS Shell Dlg 2&quot;;
@@ -1253,8 +1307,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)
 </string>
       </property>
       <property name="text">
@@ -1272,8 +1326,9 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
      </widget>
     </item>
@@ -1296,8 +1351,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>Load</string>
@@ -1329,8 +1384,9 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>Next</string>
@@ -1350,8 +1406,9 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>Previous</string>
@@ -1371,8 +1428,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>ROI Select</string>
@@ -1404,11 +1461,11 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
-       <string>Zoom OP View</string>
+       <string>View OP</string>
       </property>
      </widget>
     </item>
@@ -1424,12 +1481,11 @@ border-color: rgb(42, 42, 42);
 background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
-
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
-       <string>Zoom IP View</string>
+       <string>View IP</string>
       </property>
      </widget>
     </item>
@@ -1458,8 +1514,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>Cwise</string>
@@ -1478,10 +1534,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">
-
-color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+       <string notr="true">color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>Rotate DCM</string>
@@ -1504,8 +1558,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>CCwise</string>
@@ -1537,8 +1591,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>VFlip</string>
@@ -1558,8 +1612,8 @@ background-color: rgb(68, 68, 68);
 color: rgb(184, 184, 184);
 
 
-color: rgb(184, 184, 184);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>HFlip</string>
@@ -1580,9 +1634,8 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
       <property name="styleSheet">
        <string notr="true">
 
-
-color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))</string>
+color: rgb(0,0,0);
+background-color: rgb(167,187,199)</string>
       </property>
       <property name="text">
        <string>Flip DCM</string>
@@ -1612,10 +1665,19 @@ background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.437
      <bold>false</bold>
     </font>
    </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);
-background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0.4375 rgba(0, 0, 0, 255), stop:0.607955 rgba(50, 50, 50, 255))
+    <string notr="true">color: rgb(0, 0,0);
+background-color: rgb(167,187,199)
 </string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
    </property>
    <property name="text">
     <string>TOOLS</string>
